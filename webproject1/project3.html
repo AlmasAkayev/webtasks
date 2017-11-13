@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tablets| List</title>
+		
+	<style type="text/css">
+		.card_first{
+	border-bottom:2px solid #e8491d;
+	height:100px;
+	padding:5px;
+	margin-top:20px;
+	display:flex;
+	transition-duration:0.6s;
+	flex-direction:row;
+}
+.card_first:hover{
+	background-color:#FF9800;
+	color:white;
+}
+.card_first .img{
+	width:100px;
+	height:100px;
+}
+.favourite{
+	margin-top:20px;
+	margin-left:15px;
+	height:20px;
+	border-radius:50%;
+}
+.info{
+	padding:0px;
+	margin-left:25px;
+	margin-top:-25px;
+	flex-direction:column;
+}
+.about{
+	margin-top:-10px;
+}
+.card_first .boxButton{
+	height:50px;
+	margin-top:25px;
+}body{
+	font:15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+header{
+	background-image: url("./img/background1.jpg");
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header #branding h1{
+	margin:0px;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header li{
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header nav{
+	margin-top:10px;
+	margin-left:27%;
+}
+
+header .highlight,
+header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+
+.write{
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#newletter{
+	padding:15px;
+	color:#ffffff;
+	background:#1A237E;
+}
+#newletter .write{
+	display:flex;
+	flex-direction:row;
+}
+#newletter form{
+	margin-left:340px;
+	margin-top:15px;
+}
+#newletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#00C853;
+	text-align:center;
+}
+#row{display: flex;flex-direction: row;}
+	</style>
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Электроника</span> & Ноутбуки</h1>
+				</div>
+				<nav>
+					<ul>
+					<li><a href="project.html">Главная Страница</a></li>
+						<li><a href="project4.html">Смартфоны</a></li>
+						<li class="current"><a href="page2.html">Планшеты</a></li>
+						<li><a href="project5.html">Ноутбуки</a></li>
+						<li><a href="Login1.html">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="newletter">
+			<div class="write">
+				<h1>Самые популярные товары
+
+</h1>
+				<form>
+					<input type="email" placeholder="Product name...">
+					<button type="submit" class="button_1">Search</button>
+				</form>
+			</div>
+		</section>
+		<div class="card_first" style="margin-top:40px;">
+			<img class="img" src="./img/samsung3.jpg">
+			<section class="info">
+				<div id="row">
+					<h4><a href="inform.html">Samsung Tab 4 </a></h4>
+					
+				</div>
+				<p class="about">Galaxy Tab 4 - планшет Samsung с экраном 7 дюймов. Он оснащен 4-х ядерным процессором с тактовой частотой 1,2 ГГц, объемом оперативной памяти 1.5 ГБ; разрешение 7-дюймового экрана составляет - 1280 x 800 пикселей, что соответствует достаточно низкой разрешающей способности в 216 ppi; основная 3-МП,фронтальная - 1,3 МП.</p>
+				<p class="about">Место расположения: Алматинская область, Алматы, Казахстан</p>
+
+
+				
+			</section>
+		</div><div class="card_first">
+			<img class="img" src="./img/lenovo1.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Lenovo Tab 3</h4>
+					
+				</div>
+				<p class="about">Экран 7" (1024х600) IPS, емкостный MultiTouch / MediaTek MTK8127 (1.3 ГГц) / RAM 1 ГБ / 8 ГБ встроенной памяти + microSD / Wi-Fi / Bluetooth 4.0 / основная камера 2 Мп + фронтальная 0.3 Мп / A-GPS / Android 5.0 / 300 г / черный  .</p>
+				<p class="about">Место расположения:Алматинская область,г.Астана , Казахстан</p>
+				
+			</section>
+		</div>
+		<div class="card_first">
+			<img class="img" src="./img/ipad1.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Ipad Pro 2017</h4>
+					
+				</div>
+				
+				<p class="about">- диагональ 9.7";
+- разрешение 2048x1536;
+- встроенная память 32 Гб;
+- без слота для карт памяти;
+- процессор Apple A9;
+- Wi-Fi, Bluetooth, NFC.</p>
+				<p class="about">Место расположения:Алматинская область,г.Алматы,Казахстан</p>
+			</section>
+</div>
+		<div class="card_first">
+			<img class="img" src="./img/sony2.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Sony Xperia Tablet 3</h4>
+					
+				</div>
+				
+				<p class="about">планшет 10.1", 2560x1600, TFT IPS
+встроенная память 32 Гб, слот microSDXC, до 128 Гб
+Android 5.0, ОЗУ 3 Гб, процессор Qualcomm Snapdragon 810 MSM8994 2700 МГц
+Wi-Fi, Bluetooth, 3G, 4G LTE, NFC
+тыловая камера 8.1 Мпикс
+фронтальная камера 5.1 Мпикс
+время работы (видео) 17 ч
+акселерометр
+Размер встроенной памяти: 32 Гб
+
+.</p>
+<p class="about">Место расположения: Алматинская область,г.Алматы,Казахстан</p>
+			</section>
+		</div>
+		<footer>
+			<p>BestGadget &copy; 2017</p>
+		</footer>
+	</body>
+</html>

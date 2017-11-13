@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Laptops| List</title>
+		
+	<style type="text/css">
+		.card_first{
+	border-bottom:2px solid #e8491d;
+	height:100px;
+	padding:5px;
+	margin-top:20px;
+	display:flex;
+	transition-duration:0.6s;
+	flex-direction:row;
+}
+.card_first:hover{
+	background-color:#FF9800;
+	color:white;
+}
+.card_first .img{
+	width:100px;
+	height:100px;
+}
+.favourite{
+	margin-top:20px;
+	margin-left:15px;
+	height:20px;
+	border-radius:50%;
+}
+.info{
+	padding:0px;
+	margin-left:25px;
+	margin-top:-25px;
+	flex-direction:column;
+}
+.about{
+	margin-top:-10px;
+}
+.card_first .boxButton{
+	height:50px;
+	margin-top:25px;
+}body{
+	font:15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+}
+
+header{
+	background-image: url("./img/background1.jpg");
+	color:#ffffff;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#e8491d 3px solid;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header #branding h1{
+	margin:0px;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header li{
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header nav{
+	margin-top:10px;
+	margin-left:27%;
+}
+
+header .highlight,
+header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+header a:hover{
+	color:#cccccc;
+	font-weight:bold;
+}
+
+.write{
+	flex-direction:row;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#newletter{
+	padding:15px;
+	color:#ffffff;
+	background:#880E4F;
+}
+#newletter .write{
+display:flex;
+flex-direction:row;
+}
+#newletter form{
+	margin-left:340px;
+	margin-top:15px;
+}
+#newletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}footer{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#880E4F;
+	text-align:center;
+}
+#row{display: flex;flex-direction: row;}
+	</style>
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Электроника</span> & Ноутбуки</h1>
+				</div>
+				<nav>
+					<ul>
+					<li><a href="project.html">Главная Страница</a></li>
+						<li class="current"><a href="page2.html">Ноутбуки</a></li>
+						
+						<li><a href="project4.html">Смартфоны</a></li>
+						<li><a href="project3.html">Планшеты</a></li>
+						
+						<li><a href="Login1.html">Login</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="newletter">
+			<div class="write">
+				<h1>Самые популярные товары
+
+</h1>
+				<form>
+					<input type="email" placeholder="Product name...">
+					<button type="submit" class="button_1">Search</button>
+				</form>
+			</div>
+		</section>
+		<div class="card_first" style="margin-top:40px;">
+			<img class="img" src="./img/lenovo2.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Lenovo Yoga 910</h4>
+					
+				</div>
+				<p class="about">ПроцессорIntel Core i7-6500U
+Графический адаптерIntel HD Graphics 520 - 1024 Мбайт, Ядро: 400 МГц, Память: 797 МГц, 10.18.15.4248
+Оперативная память16290 Мбайт  
+, DDR3, двухканальная, 1600 МГц
+Дисплей13.3 дюйм. 16:9, 3200x1800 пикс., мультитач, до 10 касаний, IPS, Samsung SDC454A (LFYLLTN133YL05L02), глянцевое покрытие: да
+Материнская платаIntel Skylake-U Premium PCH</p>
+				
+				
+			</section>
+		</div><div class="card_first">
+			<img class="img" src="./img/acer1.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Acer Predator</h4>
+					
+				</div>
+				<p class="about">Экран 21" IPS (2560x1080) WFHD LED, матовый / Intel Core i7-7820HK (2.9 - 3.9 ГГц) / RAM 64 ГБ / SSD 512 ГБ + HDD 2 ТБ / nVidia GeForce GTX 1080 SLI, 16 ГБ / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Windows 10 Home / 8.5 кг / черный
+.</p>
+				
+				
+			</section>
+		</div>
+		<div class="card_first">
+			<img class="img" src="./img/asus2.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Asus Zenbook </h4>
+					
+				</div>
+				
+				<p class="about">Процессор
+Intel Core i7-4558U
+Графический адаптер
+Intel Iris Graphics 5100, Ядро: 200 - 1200 МГц, 9.18.10.3220
+Оперативная память
+8192 Мбайт  
+, DDR3-1600, soldered onto the mainboard
+Дисплей
+13.3 дюйм. 16:9, 2560x1440 пикс., емкостный, до 10 касаний мультитач, Sharp LQ133T1JW14, IPS, LED.</p>
+				
+			</section>
+</div>
+		<div class="card_first">
+			<img class="img" src="./img/mac1.jpg">
+			<section class="info">
+				<div id="row">
+					<h4>Macbook Pro 2017</h4>
+					
+				</div>
+				
+				<p class="about">Touch Bar и Touch ID, Intel Core i7 2,8 ГГц, 16 ГБ ОЗУ, SSD 256 ГБ, Radeon Pro 555 2 ГБ, четыре порта Thunderbolt 3 — 174 990 руб. Touch Bar и Touch ID, Intel Core i7 2,9 ГГц, 16 ГБ ОЗУ, SSD 512 ГБ, Radeon Pro 560 4 ГБ, четыре порта Thunderbolt 3.
+
+.</p>
+			</section>
+		</div>
+		<footer>
+			<p>BestGadget &copy; 2017</p>
+		</footer>
+	</body>
+</html>
